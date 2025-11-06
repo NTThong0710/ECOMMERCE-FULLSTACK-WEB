@@ -1,0 +1,13 @@
+.swiper-button-prev, .swiper-button-next{
+    display: flex; align-items: center; justify-content: center; background: #fff; border-radius: 100%;
+    width: 45px; height: 45px; min-width: 45px;
+}
+.swiper-button-next::after,.swiper-button-prev::after{
+    font-size:15px; color:black; font-weight: 1000;
+}
+.swiper-button-prev:hover, .swiper-button-next:hover{
+    background: #ff5252;
+}
+.homeSlider .swiper-button-next:hover::after,.swiper-button-prev:hover::after{
+    color:#fff !important;
+}

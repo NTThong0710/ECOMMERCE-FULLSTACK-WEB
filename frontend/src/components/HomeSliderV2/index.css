@@ -1,0 +1,11 @@
+.swiper-pagination-bullet{
+    background-color: #ff5252;
+}
+.homeSliderV2 .swiper-slide-active .info {
+    right:0px;
+    opacity:1;
+}
+.homeSliderV2 .swiper-slide-active .info h3,.homeSliderV2 .swiper-slide-active .info h1 {
+    right:0px;
+    opacity:1;
+}

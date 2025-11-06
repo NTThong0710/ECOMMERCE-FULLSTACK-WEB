@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+/* *{margin: 0px; padding: 0px; box-sizing: border-box;} */
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    background: #f5f0f0 ;
+}
+::-webkit-scrollbar {height: 8px !important; width: 8px !important;}
+::-webkit-scrollbar-thumb {background: #ff5252;}
+
+.scroll::-webkit-scrollbar { width: 5px !important;}
+.scroll::-webkit-scrollbar-thumb {background:#ccc !important;}
+
+.container{width: 95%;margin:auto}
+
+.bg-org{
+    background: #ff5252 !important;
+}
+
+/* .list-none:hover{ color: #ff5252;} */
+
+.MuiBadge-badge {background-color: #ff5252 !important;}
+
+nav ul button{text-transform: capitalize !important; color: rgba(0, 0, 0, 0.7) !important}
+
+nav ul button:hover{background: none !important ;}
+
+.MuiTabs-indicator  {background-color: #ff5252 !important;}
+
+.MuiTab-textColorPrimary.Mui-selected {color: #ff5252 !important;}
+
+.btn-org{
+    background: #ff5252 !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    color: white !important;
+}
+.btn-org:hover{
+    background: black !important;
+    color:white !important;
+}
+
+.btn-border{
+    background: white !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    color: #ff5252 !important;
+    font-size: 18px; padding: 10px 20px !important;
+    border: #ff5252 1px solid !important;
+}
+.btn-border:hover{
+    background: black !important;
+}
+
+.btn-lg{font-size: 18px; padding: 10px 20px !important;}
+
+.link:hover{
+    color: #ff5252;
+}
+.text-primary{color: #ff5252; font-weight: bold;}
+.swiper-button-next:hover::after{
+    color:#fff;
+}
+.MuiCheckbox-root{
+    padding: 6px !important;
+}
+.itemViewActions button.active svg{
+    color: #ff5252 !important;
+    opacity:1 !important
+}
+.zoomProductSliderThumbs .swiper-slide{
+    height: auto !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+ .reviewScroll::-webkit-scrollbar-thumb {background: #ccc !important; padding-left: 10px !important;}
+ .reviewScroll::-webkit-scrollbar{ width: 5px !important;}
+
+.cartPanel .MuiPaper-root{
+    width: 400px !important;
+    overflow: hidden;
+}
+
+#size-menu .MuiButtonBase-root{
+    font-size: 12px !important;
+}
+#account-menu .MuiPaper-root{
+    width: 200px !important;
+}
+.myAccountTabs li {
+  position: relative;
+}
+
+.myAccountTabs li a {
+  position: relative;
+  display: block;
+}
+
+.myAccountTabs li a::before {
+  content: '';
+  height: 50%;
+  width: 3px;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  background: #ff5252;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  transform: translateY(-50%);
+}
+
+.myAccountTabs li a.active::before {
+  height: 100%;
+  opacity: 1;
+  top: 0px;
+  transform: translateY(0);
+}
+
+.myAccountTabs li a.active button svg {
+  color: #ff5252 !important;
+  opacity: 1 !important;
+}
